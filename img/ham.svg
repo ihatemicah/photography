@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="36px" viewBox="0 0 42 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="HomePage" transform="translate(-699.000000, -908.000000)" stroke="#FFFFFF" stroke-width="4">
+            <g id="Menu-Button" transform="translate(701.000000, 908.000000)">
+                <path d="M0.5,18 L37.513511,18" id="Line-Copy"></path>
+                <path d="M0.5,34 L37.513511,34" id="Line-Copy-2"></path>
+                <path d="M0.5,2 L37.513511,2" id="Line"></path>
+            </g>
+        </g>
+    </g>
+</svg>
