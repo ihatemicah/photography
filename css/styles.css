@@ -1,4 +1,11 @@
 
+html, body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+
+}
+
+
 .homepage-container {
   height:100vh;
   width:100vw;
@@ -7,6 +14,9 @@
   background-size:cover;
   background-position: center center;
 }
+
+
+
 /* LOGO */
 .homepage-container > a > img {
   position: absolute;
@@ -21,4 +31,29 @@
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   width:100%;
+}
+
+
+/* Side Navigation */
+  #menu > ul > li {
+    /* spacing between elements within nav */
+    padding-top: 5%;
+  }
+
+  #menu > ul >li > a{
+  color: white;
+  font-size: 2.0em;
+  margin-left: 15%;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+
+.panel {
+    position: fixed;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+}
+
+.wrap {
+    position: relative;
 }

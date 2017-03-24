@@ -2,15 +2,34 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Photography Is Life. </title>
+    <title>Akkeem. </title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bigSlide.js"></script>
 
   </head>
   <body>
     <div class="homepage-container">
-      <a href="#"><img src="img/logo_white.png" alt="white-logo"></a>
-      <a href="#"><img src="img/ham.svg" alt="hamburger"></a>
+      <a href="#" class="logo"><img src="img/logo_white.png" alt="white-logo"></a>
+      <a href="#menu" class="menu-link"><img src="img/ham.svg" alt="hamburger"></a>
+      <nav id="menu" class="panel" role="navigation">
+          <ul>
+              <li><a href="#">About Me</a></li>
+              <li><a href="#">Editorial</a></li>
+              <li><a href="#">Design</a></li>
+              <li><a href="#">Video</a></li>
+              <li><a href="#">Blog</a></li>
+          </ul>
+      </nav>
     </div>
+<script>
+// Sidebar Navigation
+  $(document).ready(function() {
+      $('.menu-link').bigSlide();
+  });
+</script>
   </body>
 </html>
