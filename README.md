@@ -1,2 +1,2 @@
-# photography
-freeLance
+# Amazing Photography!!
+Freelancer
